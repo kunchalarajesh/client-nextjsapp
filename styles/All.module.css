@@ -1,39 +1,39 @@
 @font-face {
     font-family: 'Roboto';
-    src: url('../fonts/roboto/Roboto-Black.woff2') format('woff2'),
-        url('../fonts/roboto/Roboto-Black.woff') format('woff');
+    src: url('../public/fonts/roboto/Roboto-Black.woff2') format('woff2'),
+        url('../public/fonts/roboto/Roboto-Black.woff') format('woff');
     font-weight: 900;
     font-style: normal;
     font-display: swap;
 }
 @font-face {
     font-family: 'Roboto';
-    src: url('../fonts/roboto/Roboto-Light.woff2') format('woff2'),
-        url('../fonts/roboto/Roboto-Light.woff') format('woff');
+    src: url('../public/fonts/roboto/Roboto-Light.woff2') format('woff2'),
+        url('../public/fonts/roboto/Roboto-Light.woff') format('woff');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
 }
 @font-face {
     font-family: 'Playfair Display';
-    src: url('../fonts/playfairdisplay/PlayfairDisplay-Regular.woff2') format('woff2'),
-        url('../fonts/playfairdisplay/PlayfairDisplay-Regular.woff') format('woff');
+    src: url('../public/fonts/playfairdisplay/PlayfairDisplay-Regular.woff2') format('woff2'),
+        url('../public/fonts/playfairdisplay/PlayfairDisplay-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 @font-face {
     font-family: 'Playfair Display';
-    src: url('../fonts/playfairdisplay/PlayfairDisplay-Black.woff2') format('woff2'),
-        url('../fonts/playfairdisplay/PlayfairDisplay-Black.woff') format('woff');
+    src: url('../public/fonts/playfairdisplay/PlayfairDisplay-Black.woff2') format('woff2'),
+        url('../public/fonts/playfairdisplay/PlayfairDisplay-Black.woff') format('woff');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
 }
 @font-face {
     font-family: 'Hammersmith One';
-    src: url('../fonts/Hammersmithone/HammersmithOne-Regular.woff2') format('woff2'),
-        url('../fonts/Hammersmithone/HammersmithOne-Regular.woff') format('woff');
+    src: url('../public/fonts/Hammersmithone/HammersmithOne-Regular.woff2') format('woff2'),
+        url('../public/fonts/Hammersmithone/HammersmithOne-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
