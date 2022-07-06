@@ -9,25 +9,25 @@ const Navbar = () => {
           <div className="container">
               <nav>
                 <div className="logo">
-                  <a href="/"><Image src="/images/logo.png" width="128px" height="50px" alt="#" /></a>
+                  <Link href="/"><Image src="/images/logo.png" width="128px" height="50px" alt="#" /></Link>
                 </div>
                 <ul className="nav-links">
                     <li className="active">
-                        <Link href="/"><a>Home</a></Link></li>
+                        <Link href="/">Home</Link></li>
                     <li>
-                        <Link href="/About"><a>About</a></Link></li>
+                        <Link href="/About">About</Link></li>
                     <li>
-                        <Link href="/Expertise"><a>Expertise</a></Link></li>
+                        <Link href="/Expertise">Expertise</Link></li>
                     <li>
-                        <Link href="/Works"><a>Works</a></Link></li>
+                        <Link href="/Works">Works</Link></li>
                     <li>
-                        <Link href="/Testimonials"><a>Testimonials</a></Link></li>
+                        <Link href="/Testimonials">Testimonials</Link></li>
                     <li>
-                        <Link href="/Contact"><a>Contact</a></Link></li>
+                        <Link href="/Contact">Contact</Link></li>
                 </ul>  
               </nav>   
               <div className="toggle">
-              	<a href="#" className="menu"><span></span></a>
+              	<Link href="#" className="menu"><span></span></Link>
               </div>
           </div>
       </header>

@@ -1,6 +1,7 @@
 import React from "react";
 import Script from "next/script";
 import Image from 'next/image';
+import Link from "next/link"
 
 
 function Works(){
@@ -63,37 +64,10 @@ function Works(){
                         </div>
                     </div>
                 <span>Become part of our dream team, let’s join us ! </span>
-                    <a href="#" className="buttons">WE ARE HIRING</a>
+                    <Link href="#"><a className="buttons">WE ARE HIRING</a></Link>
                     </div>
                 </div>
             </div>
-            {/* <section className="section-6">
-                <div className="container">
-                    <div className="driggle">
-                    <ul>
-                        <li><strong>OUR WORKS</strong></li>
-                        <li><a href="#">See All Project in dribbble</a></li>
-                    </ul>
-                    </div>
-                </div>
-                <div className="driggle-blocks">
-                <div className="box-1"><Image src="/images/work-1.jpg" alt="" layout='fill'/></div>
-                <div className="box-2"><Image src="/images/work-2.jpg" alt="" layout='fill'/></div>
-                <div className="box-3"><Image src="/images/work-1.jpg" alt="" layout='fill'/></div>
-                <div className="box-4"><Image src="/images/work-2.jpg" alt="" layout='fill'/></div>
-                <div className="box-5"><Image src="/images/work-1.jpg" alt="" layout='fill'/></div>
-                <div className="box-6"><Image src="/images/work-2.jpg" alt="" layout='fill'/></div>
-                <div className="box-6"><Image src="/images/work-1.jpg" alt="" layout='fill'/></div>
-                <div className="box-5"><Image src="/images/work-2.jpg" alt="" layout='fill'/></div>
-                <div className="box-4"><Image src="/images/work-1.jpg" alt="" layout='fill'/></div>
-                <div className="box-3"><Image src="/images/work-2.jpg" alt="" layout='fill'/></div>
-                <div className="box-2"><Image src="/images/work-1.jpg" alt="" layout='fill'/></div>
-                <div className="box-1"><Image src="/images/work-2.jpg" alt="" layout='fill'/></div> 
-                </div>
-                <div className="load-more">
-                <a href="#" className="buttons">LOAD MORE</a>
-                </div>
-            </section> */}
         
         <Script src="js/jquery-3.6.0.min.js"></Script>
         <Script src="slick/slick.min.js"></Script>

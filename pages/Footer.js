@@ -1,5 +1,7 @@
 import React from "react";
 import Image from 'next/image';
+import Link from "next/link"
+
 
 function Footer(){
     return(
@@ -9,7 +11,7 @@ function Footer(){
                     <div className="footer">
                         <div className="about-comp">
                         <ul>
-                            <li><a href="#"><Image src="/images/logo.png" alt="" width="128px" height="50px" /></a></li>
+                            <li><Link href="#"><Image src="/images/logo.png" alt="" width="128px" height="50px" /></Link></li>
                             <li><span>lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh elit. Duis sed odio sit amet auctror a ornare odio non mauris vitae erat in elit</span></li>
                         </ul>
                         </div>
@@ -31,24 +33,24 @@ function Footer(){
                                     </div>
                             <div className="social-icons">
                             <ul>
-                                <li><a href="#"><Image src="/images/fb-icon.png" alt="" width="35px" height="35px" /></a></li>
-                                <li><a href="#"><Image src="/images/twit-icon.png" alt="" width="35px" height="35px" /></a></li>
-                                <li><a href="#"><Image src="/images/web-icon.png" alt="" width="35px" height="35px" /></a></li>
-                                <li><a href="#"><Image src="/images/insta-icon.png" alt="" width="35px" height="35px" /></a></li>
-                                <li><a href="#"><Image src="/images/google-icon.png" alt="" width="35px" height="35px" /></a></li>
-                                <li><a href="#"><Image src="/images/youtube-icon.png" alt="" width="35px" height="35px" /></a></li>
+                                <li><Link href="#"><Image src="/images/fb-icon.png" alt="" width="35px" height="35px" /></Link></li>
+                                <li><Link href="#"><Image src="/images/twit-icon.png" alt="" width="35px" height="35px" /></Link></li>
+                                <li><Link href="#"><Image src="/images/web-icon.png" alt="" width="35px" height="35px" /></Link></li>
+                                <li><Link href="#"><Image src="/images/insta-icon.png" alt="" width="35px" height="35px" /></Link></li>
+                                <li><Link href="#"><Image src="/images/google-icon.png" alt="" width="35px" height="35px" /></Link></li>
+                                <li><Link href="#"><Image src="/images/youtube-icon.png" alt="" width="35px" height="35px" /></Link></li>
                             </ul>
                             </div>
                         </div>
                     </div>
                     <div className="terms">
                         <ul className="inner-terms">
-                            <li><a href="#">HELP</a></li>
-                            <li><a href="#">TERMS &amp; CONDITION</a></li>
-                            <li><a href="#">PRIVACY</a></li>
+                            <li><Link href="#">HELP</Link></li>
+                            <li><Link href="#">TERMS &amp; CONDITION</Link></li>
+                            <li><Link href="#">PRIVACY</Link></li>
                         </ul>
                         <ul>
-                            <li><a href="#">Copyright © 2015 - Tajem Creative</a></li>
+                            <li><Link href="#">Copyright © 2015 - Tajem Creative</Link></li>
                         </ul>
                     </div>
                 </div>
