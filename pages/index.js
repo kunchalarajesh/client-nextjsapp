@@ -10,6 +10,7 @@ import Testimonials from './Testimonials';
 import Contact from './Contact';
 import Footer from './Footer';
 import styler from'../styles/All.module.css'
+ 
 
 function Home() {
   return (
@@ -19,12 +20,12 @@ function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no" />
         <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
         <link rel="preconnect" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" crossOrigin />
-        <link rel="stylesheet" href="slick/slick.css" />
-        <link rel="stylesheet" href="slick/slick-theme.css" />
+        <link rel="stylesheet" href="./slick/slick.module.css" />
+        <link rel="stylesheet" href="./slick/slick-theme.module.css" />
         <title>Creative Agency</title>
       </Head>
       <Navbar />
-      <Section />
+      <Section /> 
       <About />
       <Expertise />
       <Works />

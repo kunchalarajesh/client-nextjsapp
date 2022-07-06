@@ -39,12 +39,6 @@
     font-display: swap;
 }
 
-
-
-#wrapper{
-  min-width: 100%;
-  min-height: 100%;
-}
 .container{
   width: 940px;
   margin: 0 auto;
