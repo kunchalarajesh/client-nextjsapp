@@ -50,7 +50,7 @@
   margin: 0 auto;
 }
  
-Image{
+.Image{
   max-width: 100%;
   display: block;
 }
@@ -244,7 +244,7 @@ header.fixed{
   text-align: center;
   margin:70px 0;
 }
-.section-4 Image{
+.section-4 .Image{
   margin: 0 auto;
 }
 .section-4 h3{
