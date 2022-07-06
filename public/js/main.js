@@ -10,41 +10,23 @@ $(document).ready(function(){
     arrows:false,
         dots:true
   });
-    $(".team-about").slick({
-     slidesToShow: 4,
-      slidesToScroll: 4,
-      infinite: true,
-      cssEase: 'linear',
-      adaptiveHeight:true,
-      autoPlay:true,
-      autoplaySpeed:3000,
-      arrows:true
-  //           responsive: [
-    
-    
-  //   {
-  //     breakpoint: 767,
-  //     settings: {
-  //       slidesToShow: 1,
-  //       slidesToScroll: 1
-  //     }
-  //   }
-    
-  // ]
-  //             responsive: [
-    
-    
-  //   {
-  //     breakpoint: 768,
-  //     settings: {
-  //       slidesToShow: 3,
-  //       slidesToScroll: 3
-  //     }
-  //   }
-    
-  // ]
-  
+
+  $('.team-about').slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1
+          }
+        }
+      ]
   });
+        
 
 
     $(".testimonials-slider").slick({
