@@ -11,10 +11,11 @@ import Works from './Works';
 import Testimonials from './Testimonials';
 import Contact from './Contact';
 import Footer from './Footer';
+import styler from'../styles/All.module.css'
 
 function Home() {
   return (
-    <div className={styles.container}>
+    <div className={styler.container}>
       <Head>
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no" />
