@@ -22,7 +22,6 @@ function Home() {
         <link rel="stylesheet" href="slick/slick.css" />
         <link rel="stylesheet" href="slick/slick-theme.css" />
         <link rel="stylesheet" href="css/styles.css" />
-        <link rel="stylesheet" href="css/responsive.css" />
         <title>Creative Agency</title>
       </Head>
       <Navbar />
