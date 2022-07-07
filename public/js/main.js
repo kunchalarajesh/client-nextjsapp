@@ -3,29 +3,29 @@ $(document).ready(function(){
     $(".nav-links").slideToggle('slow');
   })
 
-  $(".slide-1").slick({
-  	 adaptiveHeight: true,
-    autoplay: true,
-    autoplaySpeed: 100000,
-    arrows:false,
-        dots:true
-  });
+  // $(".slide-1").slick({
+  // 	 adaptiveHeight: true,
+  //   autoplay: true,
+  //   autoplaySpeed: 100000,
+  //   arrows:false,
+  //       dots:true
+  // });
    
-  $('.team-about').slick({
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 2000,
-    responsive: [
-        {
-          breakpoint: 768,
-          settings: {
-            slidesToShow: 2,
-            slidesToScroll: 1
-          }
-        }
-      ]
-  });
+  // $('.team-about').slick({
+  //   slidesToShow: 3,
+  //   slidesToScroll: 1,
+  //   autoplay: true,
+  //   autoplaySpeed: 2000,
+  //   responsive: [
+  //       {
+  //         breakpoint: 768,
+  //         settings: { 
+  //           slidesToShow: 2,
+  //           slidesToScroll: 1
+  //         }
+  //       }
+  //     ]
+  // });
 
 
     $(".testimonials-slider").slick({

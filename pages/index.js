@@ -15,26 +15,25 @@ import Footer from './Footer';
 function Home() {
   return (
     <div>
-      <Head>
+      <Head>  
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no" />
         <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
         <link rel="preconnect" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" crossOrigin />
-        <link rel="stylesheet" href="slick/slick.css" />
-        <link rel="stylesheet" href="slick/slick-theme.css" />
+        {/* <link rel="stylesheet" href="slick/slick.css" />
+        <link rel="stylesheet" href="slick/slick-theme.css" /> */}
+        <link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" />
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
         <title>Creative Agency</title>
       </Head>
       <Navbar />
-      <Section /> 
+      <Section />  
       <About />
       <Expertise />
-      <Works />
-      <Testimonials />
+      <Works /> 
+      <Testimonials /> 
       <Contact />
       <Footer /> 
-      <Script src="js/jquery-3.6.0.min.js"></Script>
-      <Script src="slick/slick.min.js"></Script>
-      <Script src="js/main.js"></Script>
     </div>
   )
 }
