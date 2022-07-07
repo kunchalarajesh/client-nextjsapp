@@ -10,7 +10,7 @@ $(document).ready(function(){
     arrows:false,
         dots:true
   });
-
+   
   $('.team-about').slick({
     slidesToShow: 3,
     slidesToScroll: 1,
@@ -26,7 +26,6 @@ $(document).ready(function(){
         }
       ]
   });
-        
 
 
     $(".testimonials-slider").slick({
@@ -49,3 +48,5 @@ $(document).ready(function(){
       }
 });
 });
+
+  
